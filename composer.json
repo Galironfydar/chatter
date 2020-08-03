@@ -7,8 +7,14 @@
             "email": "tony@devdojo.com"
         }
     ],
+    "repositories": {
+        "purifier": {
+            "type": "vcs",
+            "url": "https://github.com/Galironfydar/Purifier.git"
+        }
+    },
     "require": {
-        "luketowers/purifier": "~3.0"
+        "luketowers/purifier": "dev-master"
     },
     "require-dev": {
         "illuminate/cache": "~5.1.20|5.2.*|5.3.*",
